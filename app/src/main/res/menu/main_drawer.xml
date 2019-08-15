@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/nav_about_us"
+            android:title="Our Mission"
+
+
+
+
+            />
+        <item
+            android:id="@+id/nav_inside_prayer_board"
+            android:title="Inside Prayer Board"/>
+        <item
+            android:id="@+id/nav_prayer_board"
+            android:title="Outside Prayer Board"/>
+        <item
+            android:id="@+id/nav_events"
+            android:title="Events"/>
+
+    </group>
+    <item
+        android:title="Contact Us"
+      ><menu>
+        <item
+            android:id="@+id/nav_media"
+            android:title="Media"
+           />
+            <item
+                android:id="@+id/nav_send"
+                android:title="Call Us!"/>
+        <item
+            android:id="@+id/nav_share"
+            android:title="Please Share"/>
+
+
+
+</menu>
+    </item>
+</menu>
